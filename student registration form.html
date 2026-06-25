@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <section>
+    <form action="">
+        <h2><b>Personal information</b></h2>
+        
+        <p>Full Name: *<input type="text"placeholder="Enter your Full name"required></p>
+        <p>Father Name: <input type="text" Name="name"></p>
+        <p>email:*<input type="email" name="email" id="email"required></p>
+
+        <p>Phone number:* <input type="number"id=""required></p>
+        <fieldset>
+            <legend>gender</legend>
+        <p> 
+            male:<input type="radio" name="gender" id="male">
+            female:<input type="radio" name="gender" id="female">
+        </p></fieldset>
+        <br><br>
+        <label for="Address">Address:</label>
+        <textarea name="Address" id="Address" rows="10" cols="6"></textarea>
+        
+        <p>Date of birth:*<input type="date" name="date" id=""required></p>
+        <br>
+        <br>
+        <h2><b>OTHER INFORMATION</b></h2>
+
+        <label for="City:">City:*</label>
+        <select name="City" id="City"required>
+
+            <option value>"--select your city--"</option>
+            <option value="Sialkot">Sialkot</option>
+            <option value="karachi">karachi</option>
+            <option value="lahore">lahore</option>
+            <option value="islamabad">islamabad</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="Hoobies">Hoobies:*</label>
+        <input type="checkbox" name="" id=""required>
+        <label for="Reading">Reading</label>
+        <input type="checkbox" name="" id="">
+        <label for="CRICKET">CRICKET</label>
+        <input type="checkbox" name="Gaming" id="Gaming">
+        <label for="Gaming">Gaming</label>
+        <br><br>
+
+        <br><br>
+        <input type="submit" value="submit" >
+        <input type="reset"value="reset">
+    </section>
+    </form>
+    <footer >
+        <h5 >University registration system</h5>
+    </footer>
+
+
+</body>
+</html>
